@@ -1,0 +1,38 @@
+extends base.pug
+
+block scripts
+    script(src='index.js')
+block style
+    link(rel="stylesheet" href="style.css")
+block content  
+    section#introsection 
+      | #[h1 Welcome To MyDanceAcademy]
+      | #[p(class="small") Eat Sleep Dance Repeat]
+    section#ourmission 
+      h2 Our Mission
+      div.card
+        h3 Dance to inspire
+        .image 
+          img(src="images/img1.png" alt="image not loading")
+        p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit modi adipisci ea inventore qui repudiandae. Accusantium voluptatibus saepe explicabo doloribus! Ipsum a consectetur et doloremque necessitatibus! Quis, in vel exercitationem dolorem sed eligendi quasi! Tempore ab eligendi quaerat voluptates deserunt? Lorem ipsum dolor
+      div.card
+        h3 Dance to convey
+        .image 
+          img(src="images/img3.png" alt="image not loading")
+        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam sunt officia non inventore quaerat mollitia fugiat dignissimos, consequatur voluptatum. Ipsam reprehenderit quae est mollitia et consequatur, ad sunt, sint totam dignissimos eveniet possimus tempore. Incidunt laboriosam saepe animi repudiandae sunt.
+      div.card
+        h3 Dance to express
+        .image 
+          img(src="images/img2.png" alt="image not loading")
+        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam sunt officia non inventore quaerat mollitia fugiat dignissimos, consequatur voluptatum. Ipsam reprehenderit quae est mollitia et consequatur, ad sunt, sint totam dignissimos eveniet possimus tempore. Incidunt laboriosam saepe animi repudiandae sunt.
+        
+    section#sponsorsection 
+       h2 Our Sponsors 
+       #sponsors 
+         img(src="images/sponsors/sp1.png" alt="sponsorImage")
+         img(src="images/sponsors/sp2.png" alt="sponsorImage")
+         img(src="images/sponsors/sp3.png" alt="sponsorImage")
+         img(src="images/sponsors/sp4.png" alt="sponsorImage")
+         img(src="images/sponsors/sp5.png" alt="sponsorImage")
+         img(src="images/sponsors/sp6.png" alt="sponsorImage")
+

@@ -1,0 +1,21 @@
+doctype html 
+html
+  head
+    title MyDanceAcademy 
+    block scripts
+    block style 
+      
+  body
+    nav#navbar.top 
+      div#logo
+        img(src="images/logo.png" alt="Image not loading")
+        | MyDanceAcademy
+      ul
+        li #[a(href="/") Home] 
+        li #[a(href="/") About] 
+        li #[a(href="/") Services] 
+        li #[a(href="/login") Contact]  
+        li #[a(href="/") Class info]
+    block content
+    footer#footer 
+      | copyright &copy; 2022 MyDanceAcademy.com | All Rights Reserved

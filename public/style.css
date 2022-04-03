@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+    background-color: #b85c5c;
+    padding:6px 12px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 225px;
+    padding-left: 10px;
+}
+#logo img{
+    height:60px;
+}
+#navbar ul{
+    display:flex;
+    justify-content: center;
+}
+#navbar ul li{
+    list-style: none;
+    margin:0px 18px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding:11px 18px;
+    color:white;
+    font-size: 1.2rem;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+#introsection{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    background: url('images/bg1.jpg') no-repeat center/cover;
+    color:white;
+    height:300px;
+}
+#introsection p{
+    padding:30px;
+}
+.small{
+    font-size: 26px;
+}
+
+#ourmission{
+    padding:20px;
+    height:350px;
+    margin:20px;
+}
+#ourmission h2{
+    margin:10px 0px;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    font-size: 2.3rem;
+}
+.card{
+    display:inline-block;
+    margin:10px 20px;
+    padding: 20px;
+    border:7px solid black;
+    border-radius: 10px;
+    width:30%;
+    background-color: #9cb4b4;
+}
+.card h3{
+    color:#9a0909;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 12px;
+}
+.image{
+    width:139px;
+    margin:auto;
+}
+.card img{
+    height:80px;
+}
+.card p{
+    display:inline-block;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.2rem;
+}
+
+#sponsorsection{
+    margin-top: 180px;
+    height:300px;
+    background-color: yellow;
+    padding-top: 23px;
+}
+#sponsorsection h2{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    font-size: 2.3rem;
+    margin-bottom:20px;
+}
+#sponsors{
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#sponsors img{
+    height:125px;
+    margin:5px 17px;
+}
+
+#footer{
+    display: flex;
+    font-family: 'Acme', sans-serif;
+    justify-content: center;
+    align-items: center;
+     background-color: black;
+     height: 60px;
+     color:white;
+}
